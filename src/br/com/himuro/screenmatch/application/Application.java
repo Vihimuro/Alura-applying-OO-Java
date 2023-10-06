@@ -1,3 +1,5 @@
+package br.com.himuro.screenmatch.application;
+
 import br.com.himuro.screenmatch.calculations.RecommendationFilter;
 import br.com.himuro.screenmatch.calculations.TimeCalculator;
 import br.com.himuro.screenmatch.models.Episode;

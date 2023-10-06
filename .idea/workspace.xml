@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e911942-499b-48a3-8762-075e69447b87" name="Changes" comment="feat: lesson 04 - Applying common behaviors">
+    <list default="true" id="6e911942-499b-48a3-8762-075e69447b87" name="Changes" comment="feat: course 02 - lesson 02 - Object Constructors">
+      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/application/Lists.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Movie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/application/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,23 @@
       <option name="project" value="LOCAL" />
       <updated>1696614591388</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="feat: course 02 - lesson 01 - Movie Collection">
+      <option name="closed" value="true" />
+      <created>1696618566429</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1696618566429</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: course 02 - lesson 02 - Object Constructors">
+      <option name="closed" value="true" />
+      <created>1696619510627</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696619510627</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -108,6 +124,8 @@
     <MESSAGE value="feat: lesson 02 - Controlling access and writing of data" />
     <MESSAGE value="feat: lesson 03 - Reusing traits and behaviors" />
     <MESSAGE value="feat: lesson 04 - Applying common behaviors" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: lesson 04 - Applying common behaviors" />
+    <MESSAGE value="feat: course 02 - lesson 01 - Movie Collection" />
+    <MESSAGE value="feat: course 02 - lesson 02 - Object Constructors" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: course 02 - lesson 02 - Object Constructors" />
   </component>
 </project>
