@@ -9,9 +9,7 @@ import java.util.ArrayList;
 public class Application {
     public static void main(String[] args) {
 
-        Movie movie = new Movie();
-        movie.setName("The Godfather");
-        movie.setReleaseYear(1972);
+        Movie movie = new Movie("The Godfather", 1972);
         movie.setMinutesDuration(175);
 
         movie.showTechnicalSpecifications();
@@ -23,9 +21,7 @@ public class Application {
         movie.showTechnicalSpecifications();
         System.out.printf("Average: %.2f%n",movie.averageScore());
 
-        Serie serie = new Serie();
-        serie.setName("Breaking Bad");
-        serie.setReleaseYear(2010);
+        Serie serie = new Serie("Breaking Bad", 2010);
         serie.showTechnicalSpecifications();
         serie.setSeasons(6);
         serie.setEpisodesPerSeason(10);
@@ -45,15 +41,11 @@ public class Application {
         episode.setTotalVisualizations(50);
         recommendationFilter.filter(episode);
 
-        Movie movie2 = new Movie();
-        movie2.setName("Avatar");
-        movie2.setReleaseYear(2011);
+        Movie movie2 = new Movie("Avatar", 2011);
         movie2.setMinutesDuration(180);
         movie2.registerScore(9);
 
-        Movie movie3 = new Movie();
-        movie3.setName("Tom & Jerry");
-        movie3.setReleaseYear(2007);
+        Movie movie3 = new Movie("Tom & Jerry", 2007);
         movie3.setMinutesDuration(123);
         movie3.registerScore(7.8);
 

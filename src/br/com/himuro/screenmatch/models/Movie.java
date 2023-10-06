@@ -1,14 +1,18 @@
 package br.com.himuro.screenmatch.models;
 
 public class Movie extends Title implements Classifiable {
-    private String Director;
+    private String director;
+
+    public Movie(String name, int releaseYear) {
+        super(name, releaseYear);
+    }
 
     public String getDirector() {
-        return Director;
+        return director;
     }
 
     public void setDirector(String director) {
-        Director = director;
+        this.director = director;
     }
 
     @Override
