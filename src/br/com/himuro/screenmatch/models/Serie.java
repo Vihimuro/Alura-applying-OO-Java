@@ -46,4 +46,9 @@ public class Serie extends Title{
     public void setMinutesPerEpisode(int minutesPerEpisode) {
         this.minutesPerEpisode = minutesPerEpisode;
     }
+
+    @Override
+    public String toString() {
+        return "Serie: " + this.getName() + " (" + this.getReleaseYear() + ")";
+    }
 }

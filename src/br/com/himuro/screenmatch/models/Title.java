@@ -1,6 +1,6 @@
 package br.com.himuro.screenmatch.models;
 
-public class Title {
+public class Title  implements Comparable<Title>{
     private String name;
     private int releaseYear;
     private boolean isIncludedInPlan;
@@ -67,5 +67,10 @@ public class Title {
 
     public double averageScore() {
         return sumScore/totalScores;
+    }
+
+    @Override
+    public int compareTo(Title other) {
+        return this.getName().compareTo(other.getName());
     }
 }
