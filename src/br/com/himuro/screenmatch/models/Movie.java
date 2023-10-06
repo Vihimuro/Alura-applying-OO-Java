@@ -1,6 +1,6 @@
 package br.com.himuro.screenmatch.models;
 
-public class Movie extends Title {
+public class Movie extends Title implements Classifiable {
     private String Director;
 
     public String getDirector() {
@@ -9,5 +9,10 @@ public class Movie extends Title {
 
     public void setDirector(String director) {
         Director = director;
+    }
+
+    @Override
+    public int getClassification() {
+        return (int) averageScore() / 2;
     }
 }

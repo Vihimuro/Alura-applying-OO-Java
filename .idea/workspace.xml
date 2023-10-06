@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e911942-499b-48a3-8762-075e69447b87" name="Changes" comment="feat: lesson 02 - Controlling access and writing of data">
-      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/calculations/TimeCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Serie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Title.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="6e911942-499b-48a3-8762-075e69447b87" name="Changes" comment="feat: lesson 03 - Reusing traits and behaviors">
+      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/calculations/RecommendationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Classifiable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Episode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Movie.java" afterDir="false" />
     </list>
@@ -84,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696603815490</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: lesson 03 - Reusing traits and behaviors">
+      <option name="closed" value="true" />
+      <created>1696613142885</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1696613142885</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -92,6 +99,7 @@
     <MESSAGE value="feat: lesson 01 - Modeling the ScreenMatch" />
     <MESSAGE value="feat: (.idea) uiDesigner" />
     <MESSAGE value="feat: lesson 02 - Controlling access and writing of data" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: lesson 02 - Controlling access and writing of data" />
+    <MESSAGE value="feat: lesson 03 - Reusing traits and behaviors" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: lesson 03 - Reusing traits and behaviors" />
   </component>
 </project>

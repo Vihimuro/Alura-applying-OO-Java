@@ -1,4 +1,6 @@
+import br.com.himuro.screenmatch.calculations.RecommendationFilter;
 import br.com.himuro.screenmatch.calculations.TimeCalculator;
+import br.com.himuro.screenmatch.models.Episode;
 import br.com.himuro.screenmatch.models.Movie;
 import br.com.himuro.screenmatch.models.Serie;
 
@@ -31,5 +33,14 @@ public class Application {
         TimeCalculator timeCalculator = new TimeCalculator();
         timeCalculator.insert(movie);
         System.out.println(timeCalculator.getTotalTime());
+
+        RecommendationFilter recommendationFilter = new RecommendationFilter();
+        recommendationFilter.filter(movie);
+
+        Episode episode = new Episode();
+        episode.setNumber(1);
+        episode.setSerie(serie);
+        episode.setTotalVisualizations(50);
+        recommendationFilter.filter(episode);
     }
 }
