@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e911942-499b-48a3-8762-075e69447b87" name="Changes" comment="feat: lesson 03 - Reusing traits and behaviors">
-      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/calculations/RecommendationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Classifiable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Episode.java" afterDir="false" />
+    <list default="true" id="6e911942-499b-48a3-8762-075e69447b87" name="Changes" comment="feat: lesson 04 - Applying common behaviors">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Movie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Movie.java" afterDir="false" />
     </list>
@@ -26,9 +24,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2WOOlJBCw2myp8Gh8Rpm3XMCS67" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,7 +37,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/vinicius/IdeaProjects/screenmatch"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -91,7 +90,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696613142885</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: lesson 04 - Applying common behaviors">
+      <option name="closed" value="true" />
+      <created>1696614591388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1696614591388</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -100,6 +107,7 @@
     <MESSAGE value="feat: (.idea) uiDesigner" />
     <MESSAGE value="feat: lesson 02 - Controlling access and writing of data" />
     <MESSAGE value="feat: lesson 03 - Reusing traits and behaviors" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: lesson 03 - Reusing traits and behaviors" />
+    <MESSAGE value="feat: lesson 04 - Applying common behaviors" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: lesson 04 - Applying common behaviors" />
   </component>
 </project>
