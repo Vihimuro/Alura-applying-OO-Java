@@ -1,11 +1,9 @@
 package br.com.himuro.screenmatch.models;
 
-import com.google.gson.annotations.SerializedName;
+import br.com.himuro.screenmatch.exceptions.YearConversionException;
 
 public class Title  implements Comparable<Title>{
-    @SerializedName("Title")
     private String name;
-    @SerializedName("Year")
     private int releaseYear;
     private boolean isIncludedInPlan;
     private double sumScore;
@@ -19,6 +17,10 @@ public class Title  implements Comparable<Title>{
 
     public Title(OmdbTitle ombdTitle) {
         this.name = ombdTitle.title();
+
+        if(ombdTitle.year().length() > 4) {
+            throw new YearConversionException("The year has more than 4 characters.");
+        }
         this.releaseYear = Integer.parseInt(ombdTitle.year());
         this.minutesDuration = Integer.parseInt(ombdTitle.runtime().substring(0, ombdTitle.runtime().length() - 4));
     }

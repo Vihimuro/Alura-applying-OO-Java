@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e911942-499b-48a3-8762-075e69447b87" name="Changes" comment="feat: course 03 - lesson 01 - Resquest and Response">
-      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/OmdbTitle.java" afterDir="false" />
+    <list default="true" id="6e911942-499b-48a3-8762-075e69447b87" name="Changes" comment="feat: course 03 - lesson 02 - Using external library Gson">
+      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/exceptions/YearConversionException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/screenmatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/application/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/application/Search.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Title.java" afterDir="false" />
     </list>
@@ -155,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696854238348</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat: course 03 - lesson 02 - Using external library Gson">
+      <option name="closed" value="true" />
+      <created>1696856526794</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1696856526794</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -169,6 +176,7 @@
     <MESSAGE value="feat: course 02 - lesson 02 - Object Constructors" />
     <MESSAGE value="feat: course 02 - lesson 03 - Distinct Objects List" />
     <MESSAGE value="feat: course 03 - lesson 01 - Resquest and Response" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: course 03 - lesson 01 - Resquest and Response" />
+    <MESSAGE value="feat: course 03 - lesson 02 - Using external library Gson" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: course 03 - lesson 02 - Using external library Gson" />
   </component>
 </project>

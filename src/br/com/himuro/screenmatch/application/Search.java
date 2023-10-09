@@ -1,5 +1,6 @@
 package br.com.himuro.screenmatch.application;
 
+import br.com.himuro.screenmatch.exceptions.YearConversionException;
 import br.com.himuro.screenmatch.models.OmdbTitle;
 import br.com.himuro.screenmatch.models.Title;
 import com.google.gson.FieldNamingPolicy;
@@ -20,27 +21,42 @@ public class Search {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a movie to search: ");
         String search = sc.nextLine();
-        String urlSearch = "https://www.omdbapi.com/?t=" + search + "&apikey=" + key;
+
+        try {
+            String urlSearch = "https://www.omdbapi.com/?t=" + search + "&apikey=" + key;
 
 
-        HttpClient client = HttpClient.newHttpClient();
-        HttpRequest request = HttpRequest.newBuilder()
-                .uri(URI.create(urlSearch))
-                .build();
-        HttpResponse<String> response = client
-                .send(request, HttpResponse.BodyHandlers.ofString());
+            HttpClient client = HttpClient.newHttpClient();
+            HttpRequest request = HttpRequest.newBuilder()
+                    .uri(URI.create(urlSearch))
+                    .build();
+            HttpResponse<String> response = client
+                    .send(request, HttpResponse.BodyHandlers.ofString());
 
-        String jsonResponse = response.body();
-        System.out.println(jsonResponse);
+            String jsonResponse = response.body();
+            System.out.println(jsonResponse);
 
-        Gson gson = new GsonBuilder()
-                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
-                .create();
+            Gson gson = new GsonBuilder()
+                    .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                    .create();
 
-        OmdbTitle ombdTitle = gson.fromJson(jsonResponse, OmdbTitle.class);
-        System.out.println(ombdTitle);
+            OmdbTitle ombdTitle = gson.fromJson(jsonResponse, OmdbTitle.class);
+            System.out.println(ombdTitle);
 
-        Title title = new Title(ombdTitle);
-        System.out.println(title);
+
+            Title title = new Title(ombdTitle);
+            System.out.println(title);
+        }
+        catch (NumberFormatException e){
+            System.out.println("An Error occurred: ");
+            System.out.println(e.getMessage());
+        }
+        catch (IllegalArgumentException e){
+            System.out.println("An Error on search occurred: ");
+            System.out.println(e.getMessage());
+        }
+        catch (YearConversionException e){
+            System.out.println(e.getMessage());
+        }
     }
 }
