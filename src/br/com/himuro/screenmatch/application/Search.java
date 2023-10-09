@@ -1,5 +1,11 @@
 package br.com.himuro.screenmatch.application;
 
+import br.com.himuro.screenmatch.models.OmdbTitle;
+import br.com.himuro.screenmatch.models.Title;
+import com.google.gson.FieldNamingPolicy;
+import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
+
 import java.io.IOException;
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -23,6 +29,18 @@ public class Search {
                 .build();
         HttpResponse<String> response = client
                 .send(request, HttpResponse.BodyHandlers.ofString());
-        System.out.println(response.body());
+
+        String jsonResponse = response.body();
+        System.out.println(jsonResponse);
+
+        Gson gson = new GsonBuilder()
+                .setFieldNamingPolicy(FieldNamingPolicy.UPPER_CAMEL_CASE)
+                .create();
+
+        OmdbTitle ombdTitle = gson.fromJson(jsonResponse, OmdbTitle.class);
+        System.out.println(ombdTitle);
+
+        Title title = new Title(ombdTitle);
+        System.out.println(title);
     }
 }

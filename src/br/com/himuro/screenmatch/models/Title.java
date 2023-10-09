@@ -1,7 +1,11 @@
 package br.com.himuro.screenmatch.models;
 
+import com.google.gson.annotations.SerializedName;
+
 public class Title  implements Comparable<Title>{
+    @SerializedName("Title")
     private String name;
+    @SerializedName("Year")
     private int releaseYear;
     private boolean isIncludedInPlan;
     private double sumScore;
@@ -11,6 +15,12 @@ public class Title  implements Comparable<Title>{
     public Title(String name, int releaseYear) {
         this.name = name;
         this.releaseYear = releaseYear;
+    }
+
+    public Title(OmdbTitle ombdTitle) {
+        this.name = ombdTitle.title();
+        this.releaseYear = Integer.parseInt(ombdTitle.year());
+        this.minutesDuration = Integer.parseInt(ombdTitle.runtime().substring(0, ombdTitle.runtime().length() - 4));
     }
 
     public String getName() {
@@ -72,5 +82,12 @@ public class Title  implements Comparable<Title>{
     @Override
     public int compareTo(Title other) {
         return this.getName().compareTo(other.getName());
+    }
+
+    @Override
+    public String toString() {
+        return  "Title: " + name +
+                "(" + releaseYear + ")" +
+                " duration: " + minutesDuration + " min";
     }
 }

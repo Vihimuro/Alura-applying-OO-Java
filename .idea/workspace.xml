@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e911942-499b-48a3-8762-075e69447b87" name="Changes" comment="feat: course 02 - lesson 03 - Distinct Objects List">
-      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/application/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6e911942-499b-48a3-8762-075e69447b87" name="Changes" comment="feat: course 03 - lesson 01 - Resquest and Response">
+      <change afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/OmdbTitle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenmatch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/screenmatch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/application/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/application/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Title.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/himuro/screenmatch/models/Title.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,10 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/vinicius/IdeaProjects/challengeshopping"
+    "last_opened_file_path": "/home/vinicius/Downloads/gson-2.10.1.jar",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RunManager">
@@ -142,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1696621184056</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="feat: course 03 - lesson 01 - Resquest and Response">
+      <option name="closed" value="true" />
+      <created>1696854238348</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696854238348</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +168,7 @@
     <MESSAGE value="feat: course 02 - lesson 01 - Movie Collection" />
     <MESSAGE value="feat: course 02 - lesson 02 - Object Constructors" />
     <MESSAGE value="feat: course 02 - lesson 03 - Distinct Objects List" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: course 02 - lesson 03 - Distinct Objects List" />
+    <MESSAGE value="feat: course 03 - lesson 01 - Resquest and Response" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: course 03 - lesson 01 - Resquest and Response" />
   </component>
 </project>
